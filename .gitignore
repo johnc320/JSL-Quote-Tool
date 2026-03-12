@@ -1,0 +1,18 @@
+# dependencies
+node_modules/
+**/node_modules/
+
+# build output
+dist/
+**/dist/
+
+# local env
+.env
+.env.*
+
+# archives
+*.zip
+
+# pnpm internal state (should not be tracked)
+node_modules/.pnpm-workspace-state-v1.json
+node_modules/.pnpm/lock.yaml
